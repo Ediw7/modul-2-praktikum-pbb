@@ -1,0 +1,22 @@
+[versions]
+agp = "8.6.0"
+junit = "4.13.2"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+retrofit = "com.squareup.retrofit2:retrofit:2.9.0"
+retrofit-gson = "com.squareup.retrofit2:converter-gson:2.9.0"
+okhttp = "com.squareup.okhttp3:okhttp:4.9.0"
+gson = "com.google.code.gson:gson:2.8.8"
+glide = "com.github.bumptech.glide:glide:4.12.0"
+circleimageview = "de.hdodenhof:circleimageview:3.1.0"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
